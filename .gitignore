@@ -1,0 +1,9 @@
+# Uploaded customer documents
+login/database/*
+!login/database/.gitkeep
+login/database*.png
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
