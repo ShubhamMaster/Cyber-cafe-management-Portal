@@ -1,0 +1,96 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+
+/* The side navigation menu */
+ .sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    background-image: linear-gradient(to bottom right, rgba(34, 30, 85, 0.979), rgba(202, 205, 206, 0.911));
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  /* Sidebar links */
+  .sidebar .acon {
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 16px;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    margin-bottom: 5px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+   
+  }
+  
+  /* Active/current link */
+
+  
+  /* Links on mouse-over */
+  .acon:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  
+  /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 100%;
+    background-image: linear-gradient(to bottom right, rgb(248, 223, 177), rgb(247, 212, 136));
+    
+    
+  }
+  
+  /* On screens that are less than 700px wide, make the sidebar into a topbar */
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: static;
+      
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  
+  }
+  
+  /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+      
+    }
+  } 
+
+
+  .logout{
+  padding:10px;
+  padding-left:13px;
+  background-color: #04AA6D;
+  border-radius: 10px;
+  text-decoration: none;
+  color: black;
+  margin-left: 50px;
+  position: absolute;
+  bottom: 10%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .logout:hover{
+   background-color: #ff0000;
+   color: white;
+   font-weight: 600;
+cursor:progress;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
