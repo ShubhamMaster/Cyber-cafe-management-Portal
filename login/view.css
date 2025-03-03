@@ -1,0 +1,83 @@
+.error{
+    padding-left:10px ;
+    color: red;
+  }
+  .name{
+   text-align: center;
+   color: green;
+   margin-top: 30px;
+  }
+  .left,.right{
+    padding: 20px;
+  }
+  
+  
+.left{
+
+ 
+  font-size: 23px;
+  font-weight: 900;
+ 
+  display: inline-block;
+  
+}
+.right{
+  
+     
+     
+    
+     font-size: 23px;
+  font-weight: 400;
+     left: 60px;
+     display: inline-block;
+}
+.cont{
+    width: 500px;
+    background: white;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    padding: 5px;
+    margin: auto;
+    margin-bottom: 20px;
+  
+  
+}
+
+.cont:hover{
+    width: 500px;
+    background: white;
+    border: 2px solid green;
+    border-radius: 4px;
+    padding: 5px;
+    margin: auto;
+    margin-bottom: 20px;
+  
+  
+}
+.type{
+    font-size: 50px;
+    color: rgb(54, 9, 1);
+    padding:20px ;
+}
+.doctitle{
+   padding: 20px;
+   font-size: 20px;
+}
+.id{
+    padding-left: 190px;
+    padding-top: 20px;
+  font-size: 23px;
+  font-weight: 900;
+ color: red;
+  display: inline-block;
+  
+}
+
+.id1{
+    font-size: 23px;
+    font-weight: 400;
+       left: 60px;
+       display: inline-block;
+        color: red;
+}
+
